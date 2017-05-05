@@ -4,6 +4,7 @@
 node_modules/
 **/*.DS_Store
 
+src/
 _config.yml
 .rvm_version
 Gemfile
