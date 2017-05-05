@@ -1,8 +1,8 @@
 
 @font-face {
     font-family: 'Museo';
-    src: url('../assets/fonts/museo_slab_100-webfont.woff2') format('woff2'),
-         url('../assets/fonts/museo_slab_100-webfont.woff') format('woff');
+    src: url('../fonts/museo_slab_100-webfont.woff2') format('woff2'),
+         url('../fonts/museo_slab_100-webfont.woff') format('woff');
     font-weight: 100;
     font-style: normal;
 
@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: 'Museo';
-    src: url('../assets/fonts/museo_slab_300-webfont.woff2') format('woff2'),
-         url('../assets/fonts/museo_slab_300-webfont.woff') format('woff');
+    src: url('../fonts/museo_slab_300-webfont.woff2') format('woff2'),
+         url('../fonts/museo_slab_300-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -19,8 +19,8 @@
 
 @font-face {
     font-family: 'Museo';
-    src: url('../assets/fonts/museo_slab_500-webfont.woff2') format('woff2'),
-         url('../assets/fonts/museo_slab_500-webfont.woff') format('woff');
+    src: url('../fonts/museo_slab_500-webfont.woff2') format('woff2'),
+         url('../fonts/museo_slab_500-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
