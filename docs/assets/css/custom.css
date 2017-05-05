@@ -1,20 +1,27 @@
 /*! Place your custom styles here */
 
 .main-logo {
-  font-size: 2rem;
+  font-size: 2.5rem;
   float: left;
-  margin-top: -.500rem;
+  margin-top: -.870rem;
 }
 
 .reset-margin {
   margin: 0 !important;
 }
+
 .reset-margin-t {
   margin-top: 0 !important;
 }
+
 .reset-margin-b {
   margin-bottom: 0 !important;
 }
+
 .bg--tertiary {
   background: #f1f1f1;
+}
+
+.clean-content {
+  padding: 4rem 0;
 }
