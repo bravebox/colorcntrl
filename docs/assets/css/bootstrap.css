@@ -3382,28 +3382,4 @@ input[type="button"].btn-block {
   }
 }
 
-@font-face {
-    font-family: 'Museo';
-    src: url('/assets/fonts/Museo300-Regular-webfont.woff2') format('woff2'),
-         url('/assets/fonts/Museo300-Regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Museo';
-    src: url('/assets/fonts/Museo500-Regular-webfont.woff2') format('woff2'),
-         url('/assets/fonts/Museo500-Regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: bold;
-}
-
-@font-face {
-    font-family: 'Museo';
-    src: url('/assets/fonts/Museo700-Regular-webfont.woff2') format('woff2'),
-         url('/assets/fonts/Museo700-Regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: 700;
-}
-
 

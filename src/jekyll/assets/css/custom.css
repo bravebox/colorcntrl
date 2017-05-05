@@ -5,3 +5,16 @@
   float: left;
   margin-top: -.500rem;
 }
+
+.reset-margin {
+  margin: 0 !important;
+}
+.reset-margin-t {
+  margin-top: 0 !important;
+}
+.reset-margin-b {
+  margin-bottom: 0 !important;
+}
+.bg--tertiary {
+  background: #f1f1f1;
+}

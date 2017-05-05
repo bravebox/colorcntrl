@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <nav id="menu1" class="bar bar-1 hidden-xs">
+    <nav id="menu1" class="bar bar-1 hidden-xs bar--absolute">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-2 hidden-xs">
@@ -39,7 +39,8 @@
                 </li>
 
                 <li class="dropdown">
-                  <span class="dropdown__trigger">Technology</span>
+                  <a href="{{ 'technology/' | prepend:site.baseurl }}">Technology</a>
+                  <!--<span class="dropdown__trigger">Technology</span>
                   <div class="dropdown__container">
                     <div class="container">
                       <div class="row">
@@ -53,7 +54,7 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div>-->
                 </li>
 
                 <li class="dropdown">

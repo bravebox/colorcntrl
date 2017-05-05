@@ -1,5 +1,5 @@
 ---
-layout: 02-technology/general
+layout: 02-technology/technology
 permalink: "/technology/"
 
 title: Technology
