@@ -3,9 +3,25 @@ layout: default
 ---
 			
 <div class="main-container">
+	
+	<section class="cover imagebg text-center image--light height-20">
+    <div class="background-image-holder">
+      <img alt="background" src="{{ 'assets/img/cc-background-r.png' | prepend:site.baseurl }}" />
+    </div>
+    <div class="container pos-vertical-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="animated fadeIn">
+            <!--<h1>{{ page.title }}</h1>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+			<div class="col-sm-10 col-md-6 col-sm-offset-1 col-md-offset-3">
 				<article>
 					
 					<div class="article__title text-center">
@@ -25,25 +41,11 @@ layout: default
 						{% endfor %}
 					</div>
 
-					<div class="article__share text-center">
-						<!--<a class="btn bg--facebook btn--icon" href="#">
-							<span class="btn__text">
-								<i class="socicon socicon-facebook"></i>
-								Share on Facebook
-							</span>
-						</a>
-						<a class="btn bg--twitter btn--icon" href="#">
-							<span class="btn__text">
-								<i class="socicon socicon-twitter"></i>
-								Share on Twitter
-							</span>
-						</a>-->
+					<div class="article__share text-center" style="margin-bottom: 2rem;">
 						<div class="ssk-group">
 								<a href="" class="ssk ssk-facebook"></a>
 								<a href="" class="ssk ssk-twitter"></a>
 								<a href="" class="ssk ssk-google-plus"></a>
-								<a href="" class="ssk ssk-pinterest"></a>
-								<a href="" class="ssk ssk-tumblr"></a>
 						</div>
 					</div>
 
