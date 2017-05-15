@@ -1,9 +1,10 @@
----
+--- 
 layout: default
 ---
 
 <div class="main-container">
-	<section class="cover imagebg text-center image--light height-20">
+
+  <section class="cover imagebg text-center image--light height-20">
     <div class="background-image-holder">
       <img alt="background" src="{{ 'assets/img/cc-background-r.png' | prepend:site.baseurl }}" />
     </div>
@@ -17,12 +18,107 @@ layout: default
       </div>
     </div>
   </section>
-	
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
-				<h3 style="padding-top: 10vh; text-align: center; padding-bottom: 10vh;">Coming soon</h3>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="tabs-container tabs--vertical">
+            <ul class="tabs">
+
+              <li class="active">
+                <div class="tab__title"> <span class="h5">Electronic Shelf Labels</span> </div>
+                <div class="tab__content">
+                  <div class="img-shadow">
+                    <img alt="background" src="{{ 'assets/img/cc-sheet-slider-07.jpg' | prepend:site.baseurl }}" style="vertical-align: middle; margin: 0;">
+                    <div class="slider-text">
+                      <h3 class="reset-margin">Let our e-mirror technology customize your jewelry instantly.</h3>
+                      <p class="lead">Match your jewelry to any outfit with <span class="blue">color cntrl®</span> <span class="magenta">technology</span></p>
+                    </div>
+                  </div>
+
+                  <div class="row text-center">
+                    <div class="col-sm-4">
+                      <div class="feature">
+                        <img alt="Image" src="/assets/img/cc-f-01.png" style="max-width: 120px;">
+                        <h4>Ultra Low Power</h4>
+                        <p style="max-width: 100%;">One battery charge allows weeks of reading pleasure</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="feature">
+                        <img alt="Image" src="/assets/img/cc-f-02.png" style="max-width: 120px;">
+                        <h4>Full color</h4>
+                        <p style="max-width: 100%;">High Quality Advertising lives again next to content</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="feature">
+                        <img alt="Image" src="/assets/img/cc-f-04.png" style="max-width: 120px;">
+                        <h4>Transparent / reflective</h4>
+                        <p style="max-width: 100%;">Our technology is transparent and reflective</p>
+                      </div>
+                    </div>        
+                  </div>
+    
+                </div>
+              </li>
+              
+              <li>
+                <div class="tab__title"> <span class="h5">Electronic Shelf Labels</span> </div>
+                <div class="tab__content">
+                  <div class="img-shadow">
+                    <img alt="background" src="{{ 'assets/img/cc-sheet-slider-01.jpg' | prepend:site.baseurl }}" style="vertical-align: middle; margin: 0;">
+                    <div class="slider-text">
+                      <h3 class="reset-margin">Will our e-paper technology <br/>become the ESL standard?</h3>
+                    </div>
+                  </div>
+
+                  <div class="row text-center">
+                    <div class="col-sm-4">
+                      <div class="feature">
+                        <img alt="Image" src="/assets/img/cc-f-01.png" style="max-width: 120px;">
+                        <h4>Ultra Low Power</h4>
+                        <p style="max-width: 100%;">One battery charge allows weeks of reading pleasure</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="feature">
+                        <img alt="Image" src="/assets/img/cc-f-03.png" style="max-width: 120px;">
+                        <h4>&gt; 1:22 Contrast</h4>
+                        <p style="max-width: 100%;">Crisp black &amp; white content presentation</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="feature">
+                        <img alt="Image" src="/assets/img/cc-f-04.png" style="max-width: 120px;">
+                        <h4>Transparent / reflective</h4>
+                        <p style="max-width: 100%;">Our technology is transparent and reflective</p>
+                      </div>
+                    </div>        
+                  </div>
+    
+                </div>
+              </li>
+
+              
+
+
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+
 </div>
+
+
+<script>
+  var elements = document.querySelectorAll('.masonry__item');
+  Array.prototype.forEach.call(elements, function (el, i) {
+    if (i > 0) {
+      el.style.display = 'none';
+    }
+  });
+</script>
