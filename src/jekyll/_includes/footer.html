@@ -4,7 +4,9 @@
       <div class="row">
         <div class="col-sm-7">
           <ul class="list-inline">
-            <li> <a href="mailto: {{ site.email }}"><span class="h6 type--uppercase">Contact us</span></a> </li>
+            <li><a href="{{ '' | prepend:site.baseurl }}"><span class="h6 type--uppercase">Home</span></a></li>
+            <li><a href="mailto: {{ site.email }}"><span class="h6 type--uppercase">Contact us</span></a></li>
+            <li><a href="{{ 'about/us/' | prepend:site.baseurl }}"><span class="h6 type--uppercase">About us</span></a></li>
           </ul>
         </div>
         <div class="col-sm-5 text-right text-center-xs">
@@ -13,7 +15,15 @@
             {% if site.twitter_url %}<li><a href="{{ site.twitter_url }}"><i class="socicon socicon-twitter icon icon--xs"></i></a></li>{% endif %}
             {% if site.facebook_url %}<li><a href="{{ site.facebook_url }}"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>{% endif %}
             {% if site.instagram_url %}<li><a href="{{ site.instagram_url }}"><i class="socicon socicon-instagram icon icon--xs"></i></a></li>{% endif %}
+            {% if site.linkedin_url %}<li><a href="{{ site.linkedin_url }}"><i class="socicon socicon-linkedin icon icon--xs"></i></a></li>{% endif %}
           </ul>
+        </div>
+      </div>
+    </section>
+    <section class="space--xxs">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          Color Cntrl Group B.V. | Wilhelminakade 539 | 3072 AP Rotterdam | The Netherlands
         </div>
       </div>
     </section>
