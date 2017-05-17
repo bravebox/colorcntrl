@@ -1,8 +1,8 @@
 .jekyll-metadata
 .sass-cache/
 .vscode/
-node_modules/
 **/*.DS_Store
+node_modules/
 
 src/
 _config-production.yml
