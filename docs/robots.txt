@@ -1,1 +1,1 @@
-Sitemap: http://www.colorcntrl.com///sitemap.xml
+Sitemap: http://www.colorcntrl.com/colorcntrl//sitemap.xml
